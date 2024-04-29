@@ -1,0 +1,98 @@
+.movieCard {
+  &__card {
+    background-color: var(--card-film-background-color);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    height: 380px;
+
+    &BoxFavorite {
+      position: absolute;
+      background-color: var(--card-film-background-color);
+      z-index: 1;
+      top: 0;
+      right: 0;
+      padding: 5px 5px 0px;
+
+      border-bottom-left-radius: 25px;
+    }
+
+    &ButtonFavorite {
+      background-color: transparent;
+      cursor: pointer;
+      font-size: 25px;
+    }
+
+    & &BoxImage img {
+      transition: all ease 0.5s;
+      transform: scale(1);
+    }
+
+    &:hover &BoxImage img {
+      transition: all ease 0.5s;
+      transform: scale(1.1);
+    }
+
+    &:hover &Title {
+      text-decoration: underline;
+    }
+
+    &Info {
+      padding: 7px;
+    }
+
+    &Title {
+      color: var(--card-film-text-color);
+      font-size: 17px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    &Genres {
+      color: #afafaf;
+      margin-bottom: 5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    &Icons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &Rating {
+      display: flex;
+      gap: 5px;
+      color: var(--card-film-text-color);
+    }
+
+    &Year {
+      color: var(--card-film-text-color);
+    }
+
+    &BoxImage {
+      overflow: hidden;
+      max-height: 300px;
+      text-align: center;
+    }
+
+    &BoxButton {
+      text-align: center;
+    }
+
+    &Image {
+      object-fit: cover;
+      height: 300px;
+      object-position: center;
+      width: 100%;
+    }
+
+    &Link {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: space-between;
+    }
+  }
+}

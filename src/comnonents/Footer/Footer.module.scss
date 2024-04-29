@@ -1,0 +1,23 @@
+.footer {
+  border-top: 5px dashed #ad36bd;
+  background-color: #01014b;
+  margin-top: 70px;
+
+  &__socialIcons {
+    display: flex;
+    color: rgba(#fff, 0.7);
+    justify-content: center;
+    margin: 40px 0 30px;
+    gap: 25px;
+    font-size: 35px;
+  }
+
+  &__socialIcon {
+    transition: color ease 0.7s;
+
+    &:hover {
+      transition: color ease 0.7s;
+      color: rgba(#fff, 1);
+    }
+  }
+}

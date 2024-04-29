@@ -1,0 +1,16 @@
+.about__content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.about__contentImage {
+  width: 1500px;
+}
+@media (max-width: 900px) {
+  .about__contentImage {
+    display: none;
+  }
+}
+.about__contentText {
+  color: var(--about-text-color);
+}/*# sourceMappingURL=About.module.css.map */

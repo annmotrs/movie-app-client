@@ -1,0 +1,10 @@
+.error {
+  text-align: center;
+  padding: 0 15px;
+}
+.error__text {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--error-text);
+}/*# sourceMappingURL=Error.module.css.map */

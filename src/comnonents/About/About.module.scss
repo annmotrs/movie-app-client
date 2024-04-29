@@ -1,0 +1,19 @@
+.about {
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__contentImage {
+    width: 1500px;
+
+    @media (max-width: 900px) {
+      display: none;
+    }
+  }
+
+  &__contentText {
+    color: var(--about-text-color);
+  }
+}

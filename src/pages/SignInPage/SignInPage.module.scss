@@ -1,0 +1,48 @@
+@import '../../global.scss';
+
+.signIn {
+  background-color: var(--register-background-color);
+  margin: calc($header-margin * -1) auto calc($footer-margin * -1);
+  padding: 15px 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+  &__title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--register-title-color);
+  }
+
+  &__boxButton {
+    margin: 0px auto 15px;
+    text-align: center;
+  }
+
+  &__textSignUp {
+    color: var(--register-text-color);
+  }
+
+  &__LinkSignUp {
+    color: #ad36bd;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__input {
+    position: relative;
+  }
+
+  &__textError {
+    position: absolute;
+    left: 3px;
+    font-size: 12px;
+    color: red;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

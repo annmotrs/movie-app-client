@@ -1,0 +1,77 @@
+.moviesPage {
+  &__cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 200px));
+    gap: 30px;
+    margin-bottom: 25px;
+  }
+
+  &__oneRowFilter {
+    margin-bottom: 20px;
+  }
+
+  &__twoRowFilter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__search {
+    position: relative;
+    flex-grow: 1;
+
+    &Input {
+      background-color: var(--input-search-background-color);
+      color: var(--input-search-text-color);
+      font-size: 18px;
+      border: 1px solid #afafaf;
+      padding: 7px 15px 7px 40px;
+      border-radius: 10px;
+      width: 100%;
+
+      &:focus {
+        box-shadow: var(--input-search-box-shadow);
+      }
+    }
+
+    &Icon {
+      position: absolute;
+      display: flex;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 12px;
+      color: #afafaf;
+    }
+  }
+
+  &__toggleGenres {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #ad36bd;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    border-bottom: 1px solid #ad36bd;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  &__pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  &__textNotFound {
+    text-align: center;
+    font-size: 18px;
+    color: var(--input-search-text-color);
+  }
+}

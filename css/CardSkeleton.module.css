@@ -1,0 +1,15 @@
+.cardSkeleton__card {
+  background-color: var(--card-film-background-color);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  height: 380px;
+}
+.cardSkeleton__cardText {
+  padding: 7px;
+}
+.cardSkeleton__cardText * {
+  margin-bottom: 5px;
+}
+.cardSkeleton__cardTextColumns {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=CardSkeleton.module.css.map */

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/comnonents/UI/NavigationButton/NavigationButton.module.scss","NavigationButton.module.css"],"names":[],"mappings":"AAAA;EACE,aAAA;EACA,mBAAA;EACA,QAAA;EACA,uBAAA;EAAA,kBAAA;EACA,kBAAA;EACA,mBAAA;EACA,eAAA;EACA,gBAAA;EACA,yBAAA;EACA,WAAA;EACA,yBAAA;EACA,mBAAA;EACA,sCAAA;EACA,+CAAA;ACCF;ADCE;EACE,yBAAA;ACCJ","file":"NavigationButton.module.css"}

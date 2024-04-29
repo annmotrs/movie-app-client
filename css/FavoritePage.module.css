@@ -1,0 +1,19 @@
+.favoritePage__cards {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(auto, 200px));
+  gap: 30px;
+  margin-bottom: 25px;
+}
+.favoritePage__pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.favoritePage__textNotFound {
+  text-align: center;
+  font-size: 18px;
+  color: var(--input-search-text-color);
+}/*# sourceMappingURL=FavoritePage.module.css.map */

@@ -1,0 +1,77 @@
+@import '../../global.scss';
+
+.userProfile {
+  background-color: var(--user-profile-background-color);
+  margin: calc($header-margin * -1) auto calc($footer-margin * -1);
+  padding: 15px 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+  &__title {
+    text-align: center;
+    margin-bottom: 15px;
+    color: var(--user-profile-title-color);
+  }
+
+  &__info {
+    margin-bottom: 10px;
+
+    &Title {
+      color: #ad36bd;
+      font-weight: 600;
+      margin-bottom: 3px;
+    }
+
+    &Data {
+      color: var(--user-profile-text-color);
+
+      &Form {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      &Button {
+        font-size: 16px;
+        border-radius: 3px;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 20px;
+        height: 20px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: #fff;
+      }
+
+      &Input {
+        max-width: 160px;
+        font-size: 16px;
+        padding: 3px;
+        background-color: transparent;
+        color: var(--user-profile-input-text-color);
+        border: 1px solid var(--user-profile-input-border-color);
+
+        &:focus {
+          border-color: var(--user-profile-input-focus-color);
+          outline: 0;
+        }
+      }
+
+      &Error {
+        font-size: 12px;
+        color: red;
+      }
+    }
+  }
+
+  &__buttonEditPassword {
+    background-color: transparent;
+    color: #ad36bd;
+    cursor: pointer;
+    font-size: 16px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
